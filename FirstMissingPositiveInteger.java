@@ -39,7 +39,7 @@ class FirstMissingPositiveInteger{
   }*/
 
   public static int findMissingInteger2(int[] arr) {           //Time Complexity:O(n)
-                                                              //Space Complexity:O(n)
+                                                              //Space Complexity:O(1)
 
      int max=0;
      /*
