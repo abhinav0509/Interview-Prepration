@@ -30,22 +30,21 @@ class FindPeakElementInArray{
     {
       mid=(start+end)/2;
       if((arr[mid]>arr[mid+1]) && (arr[mid]>arr[mid-1])){
-         result=mid;    /* mid is peak element,return mid*/
+         result=mid;    /* mid is peak element,return mid */
          break;
       }
-      else if(arr[mid]<arr[mid+1]){  /* Search the peak element in the right half from mid*/
+      else if(arr[mid]<arr[mid+1]){  /* Search the peak element in the right half from mid */
          start=mid+1;
       }
       else{
-         end=mid-1;        /*Search peak element in left half from mid*/
+         end=mid-1;        /* Search peak element in left half from mid */
        }
 
 
     }
     return result;
+
   }
-
-
 
 
 }
