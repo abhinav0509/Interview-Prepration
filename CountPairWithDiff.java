@@ -23,7 +23,7 @@ import java.util.Arrays;
 
 
 
- Algorithm--geeksforgeeks
+ Algorithm
 
      1)Sort the array arr
      2)Take two pointers, l and r, both pointing to 1st element
