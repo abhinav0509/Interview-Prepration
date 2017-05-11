@@ -104,8 +104,8 @@ void printPostorder(Node root)
 {
   if (root == null)
        return;
-  printPreorder(root.left);
-  printPreorder(root.right);
+  printPostorder(root.left);
+  printPostorder(root.right);
   System.out.print("\t"+root.data);
 }
 
