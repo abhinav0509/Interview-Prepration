@@ -95,9 +95,9 @@ void printInorder(Node root)
 {
  if (root == null)
       return;
- printPreorder(root.left);
+ printInorder(root.left);
  System.out.print("\t"+root.data);
- printPreorder(root.right);
+ printInorder(root.right);
 
 }
 void printPostorder(Node root)
